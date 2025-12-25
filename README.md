@@ -1,6 +1,6 @@
-# 🛡️ POC Asset Manager (v1.0)
+#  POC 管理助手 (v1.1)
 
-**POC Asset Manager** 是一款基于 Python 和 **CustomTkinter** 开发的轻量级漏洞验证脚本（POC）管理工具。它采用现代化的扁平风格 UI（暗色模式），帮助安全研究人员高效地管理、检索和同步本地的 POC 脚本库。
+**POC 管理助手** 是一款基于 Python 和 **CustomTkinter** 开发的轻量级漏洞验证脚本（POC）管理工具。它采用现代化的扁平风格 UI（暗色模式），帮助安全研究人员高效地管理、检索和同步本地的 POC 脚本库。
 
 > **注意**: 此版本 (v1.0) 使用 `CustomTkinter` 框架，与使用 PyQt6 的 v2.0 版本在底层架构上有所不同。
 
@@ -24,7 +24,7 @@
 Plaintext
 
 ```
-POC管理助手v1.0.py              # 主程序源码
+POC管理助手v1.1.exe              # 主程序源码
 poc_library.db       # SQLite 索引数据库 (自动生成)
 my_pocs/             # POC 文件存放目录 (在此放入你的脚本)
 ```
@@ -36,6 +36,13 @@ my_pocs/             # POC 文件存放目录 (在此放入你的脚本)
 3. **搜索**: 在顶部输入框输入关键词并回车。
 4. **预览**: 双击任意搜索结果，查看文件内容。
 5. **重置**: 点击 **"⚠️ 重置全库"**，你可以选择仅清空数据库记录，或者连同本地文件一起删除（慎用）。
+## 🔄 更新功能说明 (Update Features)
+🚀 下载最新版软件 (Download Latest App)
+此功能用于检测和下载 POC Manager 管理器本身的最新版本。
+
+入口：点击左侧栏紫色的 🚀 下载最新版 (GitHub) 按钮。
+
+跳转至本项目的官方 GitHub 发布页：https://github.com/joudann/POC-Manager-v1.0
 
 ## ⚠️ 免责声明
 
@@ -46,4 +53,4 @@ my_pocs/             # POC 文件存放目录 (在此放入你的脚本)
 
 ------
 
-**Designed by 冗談**
+** by 冗談**
